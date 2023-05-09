@@ -1,0 +1,12 @@
+.explorer{
+    position: absolute;
+    top:15%;
+    left:10%;
+}
+button.btn .btn-primary{
+    position:absolute;
+margin: 20px;
+}
+.card{
+    cursor: zoom-in;
+}

@@ -1,0 +1,16 @@
+.reserve{
+    position: absolute;
+    left:3%;
+    width: 100%;
+
+
+}
+@media only  screen and (max-width:1024px){
+    .reserve{
+        position: absolute;
+        left:0;
+        width: 100%;
+    
+    
+    } 
+}

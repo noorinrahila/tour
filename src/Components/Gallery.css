@@ -1,0 +1,49 @@
+.gallery{
+    background-color: #FBe876;
+    height: 255vh;
+    width:100vw;
+}
+
+.container1{
+    padding-top: 50px;
+    width:1250px;
+    padding-left: 160px;
+}
+.row{
+    padding-top: 30px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button.btn.btn-info{
+margin-left: 600px;
+margin-top: 50px;
+}
+
+@media only  screen and (max-width:1024px) {
+    .container1{
+        width: 500px;
+        padding-left: 90px;
+     
+    }
+    .card{
+        height:50px;
+        width:300px;
+        margin-top: 5px;
+    }
+    .card-text{
+        display: none;
+    }
+    .gallery{
+        height: 600vh;
+    
+    }
+    button.btn.btn-info{
+        margin-left: 120px;
+        margin-top: 50px;
+        }
+}
